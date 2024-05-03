@@ -48,7 +48,7 @@ function OidcLogin({ loginUrl, loginLabel }: OidcLoginProps) {
   return (
     <Row style={{ marginTop: "200px" }}>
       <Col span={8} offset={8}>
-        <Card title="ChirpStack login">
+        <Card title="LNS login">
           <a href={loginUrl}>
             <Button type="primary">{loginLabel}</Button>
           </a>
@@ -62,7 +62,7 @@ function OAuth2Login({ loginUrl, loginLabel }: OAuth2LoginProps) {
   return (
     <Row style={{ marginTop: "200px" }}>
       <Col span={8} offset={8}>
-        <Card title="ChirpStack login">
+        <Card title="LNS login">
           <a href={loginUrl}>
             <Button type="primary">{loginLabel}</Button>
           </a>
@@ -84,7 +84,7 @@ function LoginForm() {
   return (
     <Row style={{ marginTop: "200px" }}>
       <Col span={8} offset={8}>
-        <Card title="ChirpStack login">
+        <Card title="LNS login">
           <Form {...layout} onFinish={onFinish}>
             <Form.Item
               label="Username / email"
