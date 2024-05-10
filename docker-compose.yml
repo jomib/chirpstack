@@ -2,7 +2,8 @@ services:
   chirpstack:
     build:
       context: .
-      dockerfile: Dockerfile-devel
+      dockerfile: Dockerfile
+    image: ghcr.io/jomib/jb-cs:latest
     volumes:
       - ./:/chirpstack
     depends_on:
